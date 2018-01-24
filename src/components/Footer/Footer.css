@@ -1,0 +1,104 @@
+.footer {
+  width: 100%;
+  min-height: 212px;
+  background-color: #151515;
+}
+
+.footer__news,
+.footer__mob,
+.footer__pay, 
+.footer__common{
+  float: left;
+  margin-left: 150px;
+  padding-top: 40px;
+}
+
+.footer__common{
+  padding-top: 36px;
+}
+
+
+.footer__news__title,
+.footer__mob__title,
+.footer__pay__title {
+  font-family: Roboto-Bold;
+  font-size: 11px;
+  color: #9b9b9b;
+}
+
+.footer__news__content,
+.footer__mob__content,
+.footer__pay__content {
+  padding-top: 30px;
+  font-family: Roboto-Medium;
+  font-size: 14px;
+  color: #fff;  
+}
+
+.footer__mob__content {
+  padding-top: 26px;
+}
+
+.footer__mob__content__apple{
+  margin-right: 35px;
+}
+
+.footer__mob__content__pic {
+  margin-right: 11px;
+}
+
+.footer__pay__content__pic {
+  margin-right: 20px;
+}
+
+.footer__mob__content__google,
+.footer__mob__content__apple {
+  display: inline-block;
+}
+
+.footer__common__content {
+  max-width: 300px;
+  margin-top: -8px;
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  color: #737373;
+}
+
+.footer__common__content p {
+  margin: 0;
+}
+
+.footer__common__content .link {
+  color: #fff;
+}
+
+.clearfix { 
+  clear: both; 
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__news,
+  .footer__mob,
+  .footer__pay, 
+  .footer__common{
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .footer__news,
+  .footer__mob,
+  .footer__pay, 
+  .footer__common{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__news,
+  .footer__mob,
+  .footer__pay, 
+  .footer__common{
+    margin-left: 10px;
+  }
+}
