@@ -1,1 +1,1 @@
-Для запуска - клонировать репозиторий --> npm install --> npm start
+Для запуска - клонировать репозиторий --> cd events_list --> npm install --> npm start
